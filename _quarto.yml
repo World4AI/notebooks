@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "World4AI Notebooks"
+  author: "Ilja Avadiev"
+  date: "12/9/2022"
+  chapters:
+    - index.qmd
+    - part: "Linear Regression"
+      chapters:
+        - linear_regression/linear_regression.ipynb
+    - part: "Logistic Regression"
+      chapters:
+        - logistic_regression/logistic_regression.ipynb
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
