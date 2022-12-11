@@ -13,6 +13,52 @@ book:
     - part: "Logistic Regression"
       chapters:
         - logistic_regression/logistic_regression.ipynb
+    - part: "Neural Network"
+      chapters:
+        - neural_network/neural_network.ipynb
+    - part: "PyTorch Basics"
+      chapters:
+        - pytorch_basics/tensors.ipynb
+        - pytorch_basics/autograd.ipynb
+        - pytorch_basics/data.ipynb
+        - pytorch_basics/training_loop.ipynb
+        - pytorch_basics/modules_optimizers_losses.ipynb
+    - part: "Feature Scaling"
+      chapters:
+        - feature_scaling/feature_scaling.ipynb
+    - part: "Overfitting"
+      chapters:
+        - overfitting/overfitting.ipynb
+    - part: "Vanishing/Exploding Gradients"
+      chapters:
+        - vanishing_exploding_gradients/vanishing_exploding_gradients.ipynb
+    - part: "Stability and Speedup"
+      chapters:
+        - stability_speedup/stability_speedup.ipynb
+    - part: "Computer Vision"
+      chapters:
+        - convolutional_neural_networks/basics.ipynb
+        - convolutional_neural_networks/saving_loading.ipynb
+        - convolutional_neural_networks/lenet_5.ipynb
+        - convolutional_neural_networks/alexnet.ipynb
+        - convolutional_neural_networks/vgg.ipynb
+        - convolutional_neural_networks/googlenet.ipynb
+        - convolutional_neural_networks/resnet.ipynb
+        - convolutional_neural_networks/mixed_precision_training.ipynb
+    - part: "Sequence Modelling"
+      chapters:
+        - sequence_modelling/rnn.ipynb
+        - sequence_modelling/rnn_biderectional.ipynb
+        - sequence_modelling/lstm.ipynb
+        - sequence_modelling/embeddings.ipynb
+        - sequence_modelling/sentiment_analysis_imdb.ipynb
+        - sequence_modelling/encoder_decoder.ipynb
+    - part: "Attention"
+      chapters:
+        - attention/bahdanau.ipynb
+        - attention/transformer.ipynb
+        - attention/bert.ipynb
+        - attention/gpt.ipynb
     - references.qmd
 
 bibliography: references.bib
